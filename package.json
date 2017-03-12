@@ -1,0 +1,21 @@
+{
+  "name": "LocalVanApp",
+  "version": "0.0.1",
+  "description": "localvan app using ng2",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "binarforge",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.4.9",
+    "@angular/compiler": "^2.4.9",
+    "@angular/core": "^2.4.9",
+    "@angular/platform-browser": "^2.4.9",
+    "@angular/platform-browser-dynamic": "^2.4.9",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.2.0",
+    "systemjs": "^0.20.9",
+    "zone.js": "^0.8.0"
+  }
+}
