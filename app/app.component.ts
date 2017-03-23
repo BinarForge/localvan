@@ -2,6 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'localvan-app',
-  template: 'Hello LocalVan!'
+  templateUrl: 'app/app.component.html'
 })
 export class AppComponent {}
