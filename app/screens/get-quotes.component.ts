@@ -4,4 +4,7 @@ import { Component } from '@angular/core';
   selector: 'get-quote',
   templateUrl: 'app/screens/get-quotes.component.html'
 })
-export class GetQuotesComponent {}
+export class GetQuotesComponent {
+  postcodeFrom: string;
+  postcodeTo: string;
+}
