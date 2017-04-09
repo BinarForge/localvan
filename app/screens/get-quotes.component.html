@@ -2,6 +2,17 @@
     <h1 class="c-heading c-heading--xlarge u-window-box--none">Get Quotes</h1>
     <p>First, tell us where do you need to move your items.</p>
 
+    <agm-map 
+      [latitude]="lat"
+      [longitude]="lng">
+    
+        <agm-marker 
+          [latitude]="lat"
+          [longitude]="lng"
+          [label]="'Hello google maps!'">
+        </agm-marker>
+    </agm-map>
+
     From <input type="text" class="c-field" name="from" [(ngModel)]="postcodeFrom" />
     To <input type="text" class="c-field" name="to" [(ngModel)]="postcodeTo" />
 

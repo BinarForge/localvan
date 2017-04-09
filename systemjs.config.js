@@ -19,6 +19,7 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 
       'rxjs': 'npm:rxjs',
+      '@agm/core': 'npm:@agm/core/core.umd.js'
     },
     packages: {
       app: {
