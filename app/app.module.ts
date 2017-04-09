@@ -1,4 +1,4 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
+import { NgModule  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms'
@@ -29,7 +29,6 @@ const appRoutes: Routes = [
     AppComponent,
     IntroComponent,
     GetQuotesComponent
-  ],
-  schemas:  [ CUSTOM_ELEMENTS_SCHEMA ]
+  ]
 })
 export class AppModule {}
