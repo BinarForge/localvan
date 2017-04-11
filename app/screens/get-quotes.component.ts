@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Coordinates } from '../Coordinates.class';
 
 @Component({
   selector: 'get-quote',
@@ -9,10 +10,11 @@ import { Component } from '@angular/core';
      }
   `]
 })
-export class GetQuotesComponent {
-  postcodeFrom: string;
-  postcodeTo: string;
 
-  lat: number = 52.1759431;
-  lng: number = 17.6365497;
+export class GetQuotesComponent {
+  coordinates: Coordinates[] = [new Coordinates(0,0), new Coordinates(0,0)];
+
+  setCoordinates(index: number, coords: Coordinates): void{
+    this.coordinates[index] = coords;
+  }
 }
